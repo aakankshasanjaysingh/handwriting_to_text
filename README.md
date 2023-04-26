@@ -40,14 +40,4 @@ Although such mistakes in spellings can be corrected using a language model. My 
 ## Training:
 Trained on GPU on Google Colab with <a href=https://www.tensorflow.org/api_docs/python/tf/keras>tensorflow.keras</a> and took around 9 hours to complete.
 
-## References and Thanks:
-<ol>
-<li>Image Pre-processing was partly inspired from: <a href ="https://github.com/keras-team/keras/blob/1a3ee8441933fc007be6b2beb47af67998d50737/examples/image_ocr.py"> OCR example on keras github repo</a>.</li>
-<li>Custome CTC Loss function from <a href=https://towardsdatascience.com/intuitively-understanding-connectionist-temporal-classification-3797e43a86c>this article</a>.</li>
-<li>Network architecture was inspired from following repositories:
-  <ul>
-    <li><a href=https://github.com/githubharald/SimpleHTR>SimpleHTR</a>,</li>
-    <li><a href=https://github.com/TheAILearner/A-CRNN-model-for-Text-Recognition-in-Keras>A-CRNN-model-for-Text-Recognition-in-Keras</a>,</li>
-    <li><a href=https://github.com/tuandoan998/HTR-for-IAM>HTR-for-IAM</a></li>
-  </ul>
-</ol>
+
